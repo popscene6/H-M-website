@@ -1,0 +1,205 @@
+/***** mobile *****/
+@media all and (max-width: 767px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+html, body {
+  display: block;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  width: 90%;
+  padding: 30px;
+  margin: 0 auto;
+}
+ body {
+  background:url('../img/background.jpg');
+}
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    margin: 0 auto;
+    font-size: .75em;
+    display: block;
+  }
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+div.panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+}
+
+div.panel.show {
+    display: block;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+
+}
+
+h1 {
+  font-size: 7em;
+  text-align: center;
+}
+
+header h3 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 3em;
+  padding: 0;
+  text-align: center;
+}
+
+.nav {
+  font-size: 4em;
+  font-family: 'Sansita', sans-serif;
+  list-style: none;
+  padding: 0;
+}
+
+.nav li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: blue;
+}
+
+section {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+h1.section-head {
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  font-size: 2em;
+  margin-top: 30px;
+  border-top: 5px solid black;
+}
+#payments {
+  border-top: 5px solid black;
+  margin-top: 30px;
+}
+
+#copy {
+  font-size: .5em;
+}
+/***** tablets *****/
+@media all and (min-width: 768px) {
+  body {
+    font-size: .875em;
+  }
+}
+
+/**** desktop *****/
+@media all and (min-width: 940px) {
+  body {
+    font-size: .5em
+  }
+
+  header {
+    font-size: 1.5em
+  }
+
+  .nav {
+    font-size: 2em;
+    font-family: 'Sansita', sans-serif;
+    list-style: none;
+    width: 750px;
+    margin: 0 auto;
+    padding: 2px;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .nav li a {
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    color: blue;
+
+  }
+
+  #about {
+    font-size: 1.5em;
+    clear:both;
+    margin-top: 50px;
+  }
+
+  button.accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 10px;
+      width: 100%;
+      border: 2px solid black;
+      text-align: center;
+      outline: none;
+      transition: 0.4s;
+      margin: 0 auto;
+      font-size: .75em;
+      display: block;
+    }
+
+button.accordion {
+  width: 25%;
+  float: left;
+  display: inline-block;
+  height: 5em;
+  font-size: 1.1em;
+}
+
+div.panel {
+  padding: 10px;
+  clear: both;
+}
+
+h1.section-head {
+  font-size: 2em;
+  clear:both;
+  text-align: left;
+}
+
+#payments {
+  clear: both;
+  font-size: 1.5em;
+}
+
+#payments p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer {
+  clear: both;
+  border-top: 5px solid black;
+}
+ #contact {
+   float:left;
+ }
+}
